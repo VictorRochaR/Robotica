@@ -1,4 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@600&family=Libre+Caslon+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+html{
+    background-color: #E7E7E7;
+}
+
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
 header {
-    color: black;
-    display: inline-flex;
+    background-color: #151515;
+    margin: -10px;
+    margin-top: -36px;
+    height: 10.5vw;
+}
+
+.name {
+    position: fixed;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    font-weight: 300;
+    font-size: 2vw;
+    top: 1vw;
+    left: 2vw;
+}
+
+.image {
+    position:fixed;
+    height: 15vw;
+    top: 3vw;
+    right: 6vw;
+    background-color: #151515;
+}
+
+.tra {
+    position: fixed;
+    font-family: 'Libre Caslon Display', serif;
+    font-weight: lighter;
+    font-size: 7vw;
+    top: 12vw;
+    left: 3vw;
+}
+.lin {
+    position: fixed;
+    font-family: 'Lexend Peta', sans-serif;
+    font-weight: 600;
+    font-size: 5.4vw;
+    top: 20.4vw;
+    left: 10vw;
+}
+
+.lina {
+    position: fixed;
+    height: 0.6vw;
+    width: 25vw;
+    background-color: black;
+    top: 26.9vw;
+    left: 7vw;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.lik{
+    position: fixed;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    top: 600px;
+    left: 550px;
+    border-radius: 15px;
+    font-family: 'Lily Script One', cursive;
+}
+
+.imagea{
+    position:fixed;
+    height: 44vw;
+    right: 10vw;
+    top: 9vw
 }
