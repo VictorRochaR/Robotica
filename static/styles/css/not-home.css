@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@600&family=Libre+Caslon+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+html{
+    background-color: #E7E7E7;
+}
+
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
+header {
+    background-color: #151515;
+    margin: -8px;
+    height: 750px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.name {
+    position: relative;
+    margin: 0px;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    top: 65px;
+    left: 20px;
+}
+
+.image {
+    position:fixed;
+    height: 250px;
+    top: 45px;
+    right: 50px;
+    background-color: #151515;
+}
+
+.image2{
+    position:fixed;
+    height: 5vw;
+    top: 3vw;
+    right: 6vw;
+    background-color: #151515;
+    border-radius: 30px;
+}
+
+.tra {
+    position: relative;
+    font-family: 'Libre Caslon Display', serif;
+    font-weight: lighter;
+    font-size: 130px;
+    margin: 0px;
+    top: 0px;
+}
+.lin {
+    position: relative;
+    font-family: 'Lexend Peta', sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+    margin: 0px;
+    left: 80px;
+}
+
+.lina {
+    position: relative;
+    height: 10px;
+    width: 450px;
+    background-color: black;
+    font-size: 130px;
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+    top: -57px;
+    left: 30px;
+}
+
+
+.lik{
+    position: relative;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    font-family: 'Lily Script One', cursive;
+    left: 390px;
+    top: 10px;
+}
+
+.imagea{
+    position:fixed;
+    height: 44vw;
+    left: 1150px;
+    top: 200px;
+}
+
+.slogan{
+    position: fixed;
+    top: 375px;
+    left: 65px;
+}
