@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@600&family=Libre+Caslon+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrow-top-right.css');
 
 html{
     background-color: #E7E7E7;
@@ -13,7 +14,7 @@ body {
   }
 
 header {
-    background-color: #151515;
+    background-color: #181818f3;
     margin: -8px;
     height: 750px;
 }
@@ -37,37 +38,39 @@ a{
 }
 
 .image {
-    position:fixed;
-    height: 250px;
-    top: 45px;
-    right: 50px;
-    background-color: #151515;
+    position: fixed;
+    top: 0px;
+    left: 100px;
+    height: 1010px;
 }
 
 .image2{
     position:fixed;
     height: 5vw;
     top: 3vw;
-    right: 6vw;
+    left: 290px;
     background-color: #151515;
     border-radius: 30px;
 }
 
 .tra {
-    position: relative;
+    color: white;
+    position: fixed;
     font-family: 'Libre Caslon Display', serif;
     font-weight: lighter;
     font-size: 130px;
     margin: 0px;
-    top: 0px;
+    top: 50px;
+    right: 200px;
 }
 .lin {
-    position: relative;
+    color: white;
+    position: fixed;
     font-family: 'Lexend Peta', sans-serif;
     font-weight: 600;
-    font-size: 100px;
-    margin: 0px;
-    left: 80px;
+    font-size: 20px;
+    top: 160px;
+    right: 120px;
 }
 
 .lina {
@@ -85,14 +88,14 @@ a{
 
 
 .lik{
-    position: relative;
+    position: fixed;
     padding: 10px;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 15px;
     font-family: 'Lily Script One', cursive;
-    left: 390px;
-    top: 10px;
+    right: 400px;
+    top: 600px;
 }
 
 .imagea{
@@ -107,3 +110,45 @@ a{
     top: 375px;
     left: 65px;
 }
+
+.gg-arrow-top-right{
+    color: white;
+}
+
+.menu{
+    font-family: 'Lexend Peta', sans-serif;
+    position: fixed;
+    font-weight: lighter;
+    font-size: 13px;
+    top: 290px;
+    left: 235px;
+}
+
+.menopt{
+    position: fixed;
+    top: 300px;
+}
+.menopt2{
+    position: fixed;
+    top: 390px;
+}
+.menopt3{
+    position: fixed;
+    top: 475px;
+}
+
+.seta1{
+    top: 35px;
+    left: 100px;
+}
+
+.seta2{
+    top: 115px;
+    left: 265px;
+}
+
+.seta3{
+    top: 193px;
+    left: 205px;
+}
+
