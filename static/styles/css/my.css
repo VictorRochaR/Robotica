@@ -14,54 +14,10 @@ body {
 
 header {
     background-color: #151515;
-    margin: -10px;
-    margin-top: -36px;
-    height: 10.5vw;
+    margin: -8px;
+    height: 200px;
 }
 
-.name {
-    position: fixed;
-    color: white;
-    font-family: 'Lexend Peta', sans-serif;
-    font-weight: 300;
-    font-size: 2vw;
-    top: 1vw;
-    left: 2vw;
-}
-
-.image {
-    position:fixed;
-    height: 15vw;
-    top: 3vw;
-    right: 6vw;
-    background-color: #151515;
-}
-
-.tra {
-    position: fixed;
-    font-family: 'Libre Caslon Display', serif;
-    font-weight: lighter;
-    font-size: 7vw;
-    top: 12vw;
-    left: 3vw;
-}
-.lin {
-    position: fixed;
-    font-family: 'Lexend Peta', sans-serif;
-    font-weight: 600;
-    font-size: 5.4vw;
-    top: 20.4vw;
-    left: 10vw;
-}
-
-.lina {
-    position: fixed;
-    height: 0.6vw;
-    width: 25vw;
-    background-color: black;
-    top: 26.9vw;
-    left: 7vw;
-}
 
 a{
     color: white;
@@ -69,20 +25,85 @@ a{
     background-color: black;
 }
 
+.name {
+    position: relative;
+    margin: 0px;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    top: 65px;
+    left: 20px;
+}
+
+.image {
+    position:fixed;
+    height: 250px;
+    top: 45px;
+    right: 50px;
+    background-color: #151515;
+}
+
+.image2{
+    position:fixed;
+    height: 15vw;
+    top: 3vw;
+    right: 6vw;
+    background-color: #151515;
+    border-radius: 30px;
+}
+
+.tra {
+    position: relative;
+    font-family: 'Libre Caslon Display', serif;
+    font-weight: lighter;
+    font-size: 130px;
+    margin: 0px;
+    top: 0px;
+}
+.lin {
+    position: relative;
+    font-family: 'Lexend Peta', sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+    margin: 0px;
+    left: 80px;
+}
+
+.lina {
+    position: relative;
+    height: 10px;
+    width: 450px;
+    background-color: black;
+    font-size: 130px;
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+    top: -57px;
+    left: 30px;
+}
+
+
 .lik{
-    position: fixed;
+    position: relative;
     padding: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    top: 600px;
-    left: 550px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-radius: 15px;
     font-family: 'Lily Script One', cursive;
+    left: 390px;
+    top: 10px;
 }
 
 .imagea{
     position:fixed;
     height: 44vw;
-    right: 10vw;
-    top: 9vw
+    left: 1150px;
+    top: 200px;
+}
+
+.slogan{
+    position: fixed;
+    top: 375px;
+    left: 65px;
 }
