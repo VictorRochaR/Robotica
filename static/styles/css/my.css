@@ -22,7 +22,6 @@ header {
 a{
     color: white;
     text-decoration: none;
-    background-color: black;
 }
 
 .name {
@@ -90,7 +89,25 @@ a{
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 15px;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
     font-family: 'Lily Script One', cursive;
+    left: 390px;
+    top: 10px;
+}
+
+.lik:hover{
+    position: relative;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    background-color: #E7E7E7;
+    border-color: black;
+    border-style: solid;
+    font-family: 'Lily Script One', cursive;
+    color: black;
     left: 390px;
     top: 10px;
 }

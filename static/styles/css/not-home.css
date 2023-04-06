@@ -23,7 +23,6 @@ header {
 a{
     color: white;
     text-decoration: none;
-    background-color: black;
 }
 
 .name {
@@ -88,12 +87,29 @@ a{
 
 
 .lik{
-    position: fixed;
     padding: 10px;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 15px;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    position: fixed;
     font-family: 'Lily Script One', cursive;
+    right: 400px;
+    top: 600px;
+}
+.lik:hover{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    background-color: #E7E7E7;
+    border-color: black;
+    border-style: solid;
+    position: fixed;
+    font-family: 'Lily Script One', cursive;
+    color: black;
     right: 400px;
     top: 600px;
 }
@@ -150,5 +166,9 @@ a{
 .seta3{
     top: 193px;
     left: 205px;
+}
+
+.hovershad:hover{
+    text-shadow: 1px 1px 10px;
 }
 
