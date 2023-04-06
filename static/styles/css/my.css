@@ -8,13 +8,13 @@ html{
 }
 
 body {
-    overflow-y: hidden; /* Hide vertical scrollbar */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0;
   }
 
 header {
     background-color: #151515;
-    margin: -8px;
     height: 200px;
 }
 
