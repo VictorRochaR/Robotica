@@ -124,3 +124,20 @@ a{
     top: 375px;
     left: 65px;
 }
+
+@media(max-width: 1500px){
+    .imagea{
+        display: none;
+    }
+}
+
+@media(max-height: 720px){
+    .slogan{
+        top: 10vw;
+    }
+    .imagea{
+        height: 30vw;
+        left: 1150px;
+        top: 200px;
+    }
+}
